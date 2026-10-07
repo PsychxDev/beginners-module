@@ -22,7 +22,9 @@
 ## How to import a specific command?
 
 - You import it by using `from module.py import command`
-- If you want to import the module with custom name?
+- `from module.py import command as (custom command name)`
+    1. To import a specific command with cutom name.
+- If you want to import the module with custom name:
     1. You type `import module.py as (custom name)`
 
 ## Why do we create modules?
